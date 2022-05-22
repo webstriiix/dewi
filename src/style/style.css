@@ -1,0 +1,14 @@
+.MuiTabs-indicator {
+  width: 50%;
+}
+
+.card-hero img {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.card-hero {
+  justify-content: center;
+}
