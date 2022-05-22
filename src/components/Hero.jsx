@@ -2,12 +2,13 @@ import { Card, CardActionArea, CardContent, CardMedia, Container, Grid, Paper, T
 import React from 'react';
 import brush from '../assets/image/paintbrush.png';
 import '../style/style.css';
+import ImgProfile from '../assets/image/look-removebg-preview.png';
 
 const Hero = () => {
   return (
     <div id="hero" style={{ paddingTop: '100px', paddingBottom: '50px', minHeight: '100vh', height: 'max-content', backgroundColor: '#EDE2DC' }}>
       <Container>
-        <Grid sx={{ flexGrow: 1 }} container spacing={2}>
+        <Grid sx={{ flexGrow: 1, margin: 'auto' }} container spacing={2}>
           <Grid item xs={12} md={6}>
             <Typography variant="caption">Lorem ipsum, dolor sit </Typography>
             <Typography variant="h2" style={{ fontWeight: 'bold', marginTop: '10px', marginBottom: '50px' }}>
@@ -15,8 +16,8 @@ const Hero = () => {
             </Typography>
             <Typography variant="h6">Welcome to my portfolio</Typography>
           </Grid>
-          <Grid item xs={12} md={6}>
-            <Typography variant="body1">Gambar</Typography>
+          <Grid item xs={12} md={6} style={{ textAlign: 'center' }}>
+            <img src={ImgProfile} height={300} alt="Image Profile" />
           </Grid>
         </Grid>
         <Grid container sx={{ justifyContent: 'center' }} style={{ marginTop: '50px' }} spacing={2}>
