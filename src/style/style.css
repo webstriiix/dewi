@@ -16,8 +16,8 @@
 }
 
 #about hr {
-  background-color: #a7826e;
-  height: 3px;
+  background-color: #dabcb2;
+  height: 5px;
   border-radius: 5px;
   border: none;
 }
@@ -33,4 +33,9 @@
   font-weight: bold;
   color: #a7826e;
   font-family: 'Grape Nuts', cursive;
+}
+
+#about .container {
+  border: 7px double #dabcb2;
+  border-radius: 20px;
 }

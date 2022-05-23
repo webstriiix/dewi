@@ -1,4 +1,4 @@
-import { Container, Grid, Typography } from '@mui/material';
+import { Container, Grid, Typography, Divider } from '@mui/material';
 import React from 'react';
 import '../style/style.css';
 import ImgProfile from '../assets/image/look-removebg-preview.png';
@@ -18,11 +18,20 @@ export default function About() {
               <span>learn</span> {''}
               something new to improving my <span>skills</span>. I <span>loved</span> to learning by doing and capable to <span>work in team</span> well.
             </Typography>
-            <hr />
           </Grid>
         </Grid>
         {/* Skill */}
-        <Grid container></Grid>
+        <Container className="container">
+          <Grid container flexDirection={'column'}>
+            <Grid item>
+              <Typography variant="h3" textAlign={'center'} color={'#B5927F'}>
+                Learning Experience
+              </Typography>
+              <hr />
+            </Grid>
+            <Grid item></Grid>
+          </Grid>
+        </Container>
       </Container>
     </div>
   );
