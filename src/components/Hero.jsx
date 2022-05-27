@@ -6,7 +6,7 @@ import ImgProfile from '../assets/image/look-removebg-preview.png';
 
 const Hero = () => {
   return (
-    <div id="hero" style={{ paddingTop: '100px', paddingBottom: '50px', minHeight: '100vh', height: 'max-content', backgroundColor: '#EDE2DC' }}>
+    <div id="hero" style={{ paddingTop: '100px', paddingBottom: '50px', minHeight: '100vh', height: 'max-content', backgroundColor: '#E8DBD5' }}>
       <Container>
         <Grid sx={{ flexGrow: 1, margin: 'auto' }} container spacing={2}>
           <Grid item xs={12} md={6}>
