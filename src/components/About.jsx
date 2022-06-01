@@ -1,12 +1,21 @@
-import { Container, Grid, Typography, Divider } from '@mui/material';
+import { Container, Grid, Typography, LinearProgress } from '@mui/material';
+import { createTheme } from '@mui/material/styles';
 import React from 'react';
 import '../style/style.css';
 import ImgProfile from '../assets/image/look-removebg-preview.png';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import WorkIcon from '@mui/icons-material/Work';
 import RecordVoiceOverIcon from '@mui/icons-material/RecordVoiceOver';
+import { borders, Box } from '@mui/system';
 
 export default function About() {
+  const theme = createTheme({
+    palette: {
+      secondary: {
+        main: '#CDA999',
+      },
+    },
+  });
   return (
     <div id="about" style={{ paddingTop: '100px', paddingBottom: '50px', minHeight: '100vh', height: 'max-content', backgroundColor: '#E8DBD5' }}>
       <Container>
@@ -25,7 +34,7 @@ export default function About() {
         </Grid>
         {/* Education */}
         <Container className="container">
-          <Grid container flexDirection={'column'}>
+          <Grid container flexDirection={'column'} paddingBottom={3}>
             <Grid item>
               <Typography variant="h3" textAlign={'center'} color={'#B5927F'}>
                 Learning Experience
@@ -108,16 +117,134 @@ export default function About() {
         </Container>
         {/* Skill */}
         <Container>
-          <Grid container paddingTop={3}>
-            <Grid item xs={6}>
+          <Grid container paddingTop={3} spacing={3}>
+            <Grid item xs={12} md={6}>
               <Typography variant="h5" textAlign={'center'}>
                 Software Skills
               </Typography>
+              <Grid container flexDirection={'column'}>
+                <Grid item xs={{ display: 'flex', flexDirection: 'row' }}>
+                  <Typography variant="h5">Gambar</Typography>
+                  <Box theme={theme}>
+                    <LinearProgress
+                      variant="determinate"
+                      value={40}
+                      sx={{
+                        '& .MuiLinearProgress-bar1Determinate': {
+                          backgroundColor: '#DABCB2',
+                        },
+                        background: 'transparent',
+                        height: '20px',
+                        borderWidth: '3px',
+                        borderStyle: 'solid',
+                        borderColor: '#A17A69',
+                      }}
+                    />
+                  </Box>
+                </Grid>
+                <Grid item xs={{ display: 'flex', flexDirection: 'row' }}>
+                  <Typography variant="h5">Gambar</Typography>
+                  <Box theme={theme}>
+                    <LinearProgress
+                      variant="determinate"
+                      value={60}
+                      sx={{
+                        '& .MuiLinearProgress-bar1Determinate': {
+                          backgroundColor: '#DABCB2',
+                        },
+                        background: 'transparent',
+                        height: '20px',
+                        borderWidth: '3px',
+                        borderStyle: 'solid',
+                        borderColor: '#A17A69',
+                      }}
+                    />
+                  </Box>
+                </Grid>
+                <Grid item xs={{ display: 'flex', flexDirection: 'row' }}>
+                  <Typography variant="h5">Gambar</Typography>
+                  <Box theme={theme}>
+                    <LinearProgress
+                      variant="determinate"
+                      value={80}
+                      sx={{
+                        '& .MuiLinearProgress-bar1Determinate': {
+                          backgroundColor: '#DABCB2',
+                        },
+                        background: 'transparent',
+                        height: '20px',
+                        borderWidth: '3px',
+                        borderStyle: 'solid',
+                        borderColor: '#A17A69',
+                      }}
+                    />
+                  </Box>
+                </Grid>
+                <Grid item xs={{ display: 'flex', flexDirection: 'row' }}>
+                  <Typography variant="h5">Gambar</Typography>
+                  <Box theme={theme}>
+                    <LinearProgress
+                      variant="determinate"
+                      value={95}
+                      sx={{
+                        '& .MuiLinearProgress-bar1Determinate': {
+                          backgroundColor: '#DABCB2',
+                        },
+                        background: 'transparent',
+                        height: '20px',
+                        borderWidth: '3px',
+                        borderStyle: 'solid',
+                        borderColor: '#A17A69',
+                      }}
+                    />
+                  </Box>
+                </Grid>
+              </Grid>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item xs={12} md={6}>
               <Typography variant="h5" textAlign={'center'}>
                 Languages
               </Typography>
+              <Grid container flexDirection={'column'}>
+                <Grid item xs={{ display: 'flex', flexDirection: 'row' }}>
+                  <Typography variant="h5">Gambar</Typography>
+                  <Box theme={theme}>
+                    <LinearProgress
+                      variant="determinate"
+                      value={98}
+                      sx={{
+                        '& .MuiLinearProgress-bar1Determinate': {
+                          backgroundColor: '#DABCB2',
+                        },
+                        background: 'transparent',
+                        height: '20px',
+                        borderWidth: '3px',
+                        borderStyle: 'solid',
+                        borderColor: '#A17A69',
+                      }}
+                    />
+                  </Box>
+                </Grid>
+                <Grid item xs={{ display: 'flex', flexDirection: 'row' }}>
+                  <Typography variant="h5">Gambar</Typography>
+                  <Box theme={theme}>
+                    <LinearProgress
+                      variant="determinate"
+                      value={60}
+                      sx={{
+                        '& .MuiLinearProgress-bar1Determinate': {
+                          backgroundColor: '#DABCB2',
+                        },
+                        background: 'transparent',
+                        height: '20px',
+                        borderWidth: '3px',
+                        borderStyle: 'solid',
+                        borderColor: '#A17A69',
+                      }}
+                    />
+                  </Box>
+                </Grid>
+              </Grid>
             </Grid>
           </Grid>
         </Container>
