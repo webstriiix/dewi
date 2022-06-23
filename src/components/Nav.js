@@ -3,6 +3,7 @@ import { AppBar, Container, CssBaseline, Grid, Tab, Tabs, Toolbar, Typography } 
 import { styled } from '@mui/material/styles';
 import Hero from './Hero';
 import About from './About';
+import Portfolio from './Portfolio';
 
 function Nav() {
   const [selectedTab, setSelectedTab] = React.useState(0);
@@ -63,6 +64,7 @@ function Nav() {
       </AppBar>
       {selectedTab === 0 && <Hero />}
       {selectedTab === 1 && <About />}
+      {selectedTab === 2 && <Portfolio />}
     </>
   );
 }
