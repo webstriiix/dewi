@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import { Card, CardActionArea, CardContent, CardMedia, Container, Grid, Typography, styled } from '@mui/material';
 import React from 'react';
 import brush from '../assets/image/paintbrush.png';

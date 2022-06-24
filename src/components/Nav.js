@@ -53,8 +53,8 @@ function Nav() {
               </Grid>
               <Grid item xs={10}>
                 <StyledTabs value={selectedTab} onChange={handleChange} indicatorColor={{ className: 'red' }} centered>
-                  <StyledTab label="Home" />
-                  <StyledTab label="About" />
+                  <StyledTab label="Home" href='/' />
+                  <StyledTab label="About"  />
                   <StyledTab label="Project" />
                 </StyledTabs>
               </Grid>
