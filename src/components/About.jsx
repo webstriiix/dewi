@@ -6,7 +6,7 @@ import ImgProfile from '../assets/image/look-removebg-preview.png';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import WorkIcon from '@mui/icons-material/Work';
 import RecordVoiceOverIcon from '@mui/icons-material/RecordVoiceOver';
-import { borders, Box } from '@mui/system';
+import { Box  } from '@mui/system';
 
 export default function About() {
   const theme = createTheme({
@@ -16,6 +16,7 @@ export default function About() {
       },
     },
   });
+  
   return (
     <div id="about" style={{ paddingTop: '100px', paddingBottom: '50px', minHeight: '100vh', height: 'max-content', backgroundColor: '#E8DBD5' }}>
       <Container>
