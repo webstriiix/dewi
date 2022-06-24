@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import { Container, Grid, Typography, LinearProgress } from '@mui/material';
 import { createTheme } from '@mui/material/styles';
 import React from 'react';
