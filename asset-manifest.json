@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dewi/static/css/main.4735339f.css",
+    "main.js": "/dewi/static/js/main.8ed9fe6a.js",
+    "static/js/787.1416a6c9.chunk.js": "/dewi/static/js/787.1416a6c9.chunk.js",
+    "static/media/look-removebg-preview.png": "/dewi/static/media/look-removebg-preview.583c7478d47cd92c5d54.png",
+    "static/media/paintbrush.png": "/dewi/static/media/paintbrush.a06191c6f85decbdcd9d.png",
+    "index.html": "/dewi/index.html",
+    "main.4735339f.css.map": "/dewi/static/css/main.4735339f.css.map",
+    "main.8ed9fe6a.js.map": "/dewi/static/js/main.8ed9fe6a.js.map",
+    "787.1416a6c9.chunk.js.map": "/dewi/static/js/787.1416a6c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4735339f.css",
+    "static/js/main.8ed9fe6a.js"
+  ]
+}
